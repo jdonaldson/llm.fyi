@@ -15,5 +15,8 @@ doc:
 test:
 	pytest
 
+publish:
+	pip-compile
+
 default: build doc test
 
